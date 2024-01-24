@@ -1,0 +1,185 @@
+
+:root{
+    scroll-behavior: auto !important;
+}
+.first {
+    height: 75vh;
+    background-image: url(../IMGS/events-heavenly-header.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.first h1 {
+    padding-top: 200px;
+}
+
+.sidenav a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.contentBox {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.speacial h2 {
+    background-color: #E68285;
+    cursor: pointer;
+    color: white;
+}
+
+.speacial p {
+    background-color: #CCCCCC;
+
+}
+
+.counter {
+    position: relative;
+    background-image: url(../IMGS/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.layertwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.box {
+    z-index: 2;
+    color: white;
+    border: solid white 3px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#contact-us{
+    margin-top:100px;
+}
+
+#contact-us .head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .head p{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-us .con-info h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-us .con-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+
+#contact-us .icons{
+    margin-top:50px;
+}
+#contact-us .icons p{
+    margin-bottom: 35px;
+}
+#contact-us i{
+    margin-right: 20px;
+    color:#777;
+}
+#contact-us .red{
+    color:#D62E33 !important;
+}
+
+
+#contact-us .con-info .social-list{
+    margin-top:60px;
+    color:#777;
+    
+}
+
+#contact-us .con-info .social-list i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us .con-info .social-list i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+#contact-us form input,
+#contact-us form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact-us form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#contact-us form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
